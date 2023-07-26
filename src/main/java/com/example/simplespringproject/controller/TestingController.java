@@ -11,4 +11,8 @@ public class TestingController {
     public String home(){
         return "this is home for testing";
     }
+    @GetMapping("kedro")
+    public String kedro(){
+        return "this is kedro..";
+    }
 }
